@@ -1,5 +1,8 @@
 require 'rake/testtask'
-
+#To invoke rake task     
+# BROWSER=safari rake spec:livewire             You can choose what browser you want to use, if you use the launch_browser method
+# rake spec:FolderName                          This will run all the files in the folder
+# rake spec:FileNameInSandBox                   This runs a specific file in the sandbox folder (only works for the sandbox)
 namespace :spec do
 
     Rake::TestTask.new do |t|

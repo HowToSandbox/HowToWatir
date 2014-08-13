@@ -1,0 +1,56 @@
+**  All assupmtions are that you are using OSX. If your not, google freely.
+
+
+Install Homebrew
+	ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+
+Update Homebrew
+	brew update
+	brew doctor  #Follow all the instructions to fix all the errors
+
+Install RVM
+	\curl -sSL https://get.rvm.io | bash -s stable --ruby
+
+Install Ruby 2.1.2 OR LATER
+	rvm install 2.1.2
+
+
+Install Bundler
+	Gem install bundler
+
+Pull source code
+	git clone <repo url>
+
+Install the Gems
+	cd into the repo
+	bundle	
+
+Install Browser Drivers
+	Phantomjs:
+	- phantomjs 
+		http://phantomjs.org/
+	
+	Chrome:
+	- chromedriver
+	https://code.google.com/p/selenium/wiki/ChromeDriver	
+
+	Safari:
+	You need to build a safari extension, and install it and a signing certificate from Apple.
+	1 - Create or log in to your Apple developer account and sign up for Safari Extensions program (it's free)
+	2 - GoTo:https://developer.apple.com/account/safari/certificate/certificateLanding.action
+	3 - Follow all the instuctions to create a signing certificate
+	4 - Download and install the certificate
+	5 - checkout the safari extension code svn co http://selenium.googlecode.com/svn/trunk selenium
+	6 - build it 
+		cd selenium
+		./go safari
+	7 - Launch Safari and open the extention Builder (in the develop menu)
+	8 - Install your new extension:  $SELENIUM_CHECKOUT_LOCATION/build/javascript/safari-driver/SafariDriver.safariextension
+	9 - Take yourself out for a beer. That was hard work.
+
+Now your ready to run the source code in this repo
+
+
+
+
+	

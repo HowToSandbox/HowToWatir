@@ -11,7 +11,7 @@ before_script:
  - ls
 
 script:
-- rake spec:something
+- rake spec:livewire
 
 notifications:
      email:
