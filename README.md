@@ -28,7 +28,7 @@ This repo will show you how to do the major things you might want to do in watir
 
 	>gem install bundler
 	
-* Pull the source code:
+* Pull your source code of choice. (whatever you happen to be working on):
 
 	>git clone `<repo url>`
 	
