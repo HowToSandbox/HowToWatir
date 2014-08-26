@@ -52,12 +52,14 @@ The next major task you need to do in order to do browser testing is install bro
 
 ###### PhantomJS
 This is probably your single most powerful driver. This is the one that will make your tests super fast, and allow you to run your tests headless in Continious Integration. If you only install one driver, install this one.
-This driver must be located in your path. Download the driver, and put it in your path.
+
+Decide where you want to put the driver, somewhere in your path. /usr/local/bin is a nice option. Or you can put it whereever you like and add that dir to your path. Dealers choice.
+
 	Download the driver from http://phantomjs.org/
 	
 	>echo $PATH
 	
-	Decide where you want to put the driver, somewhere in your path. /usr/local/bin is a nice option. Or you can put it whereever you like and add that dir to your path. Dealers choice.
+	
 
 
 
