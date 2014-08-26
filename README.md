@@ -18,18 +18,26 @@ This repo will show you how to do the major things you might want to do in watir
 * Update Homebrew
 	
 	brew update
+
 	brew doctor #Follow all the instructions
 
 * Install RVM:
 
 	>\curl -sSL https://get.rvm.io | bash -s stable --ruby
 * Install Bundler:
-	>gem install bundler
+
+	gem install bundler
+	
 * Pull the source code:
-	>git clone <repo url>
-* Install the Gems:
-	>cd repo
-	>bundle
+
+	git clone <repo url>
+	
+* Install the Gems
+
+	cd repo
+	
+	bundle
+	
 
 #### Install Browser Drivers
 
