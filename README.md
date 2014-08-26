@@ -10,7 +10,8 @@ This repo will show you how to do the major things you might want to do in watir
 	phantom/js
 	
 #Install you Development Environment
-*Install Homebrew
+
+* Install Homebrew
 	-ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
 
