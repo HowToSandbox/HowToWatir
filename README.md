@@ -12,7 +12,8 @@ This repo will show you how to do the major things you might want to do in watir
 #### Install you Development Environment
 
 * Install Homebrew
-	>	ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+
+	>ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 	
 
 
