@@ -66,19 +66,29 @@ The driver for Chrome is also needs to be in your path. Do the same things s you
 Safari is super useful because safari is the browser that 'if it works on safari, it'll work on anything'. Safari is kind of a canary in a coalmine, and will surface a lot of issues that will show up across many browsers. It also has very nice debugging tools. However, it's an epic pain in the ankle to install the driver for. 
 
 You need to build an extention, and you need a signing certificate from apple.
+
 1. Create or log in to your Apple developer account and sign up for Safari Extensions program (it's free)
+
 2. GoTo:https://developer.apple.com/account/safari/certificate/certificateLanding.action
+
 3. follow all the instuctions to create a signing certificate
+
 4. Download and install the certificate
+
 5. checkout the safari extension code 
 	* svn co http://selenium.googlecode.com/svn/trunk selenium
+
 6. Build it
 	* cd selenium
 	* ./go safari
+
 7. Launch Safari and open the extention Builder (in the develop menu)
+
 8. Install your new extension	
 	* $SELENIUM_CHECKOUT_LOCATION/build/javascript/safari-driver/SafariDriver.safariextension
+
 9. Post a nastygram to Apple for making this so difficult
+
 10.Go have a beer for all your hard work.
 
 #### You should be ready now
