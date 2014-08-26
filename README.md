@@ -24,6 +24,10 @@ This repo will show you how to do the major things you might want to do in watir
 * Install RVM:
 
 	>\curl -sSL https://get.rvm.io | bash -s stable --ruby
+*Install Ruby under RVM
+
+	>rvm install 2.1.2
+	>rvm --default use 2.1.2  # this will set your default ruby to the newly installed one
 * Install Bundler:
 
 	>gem install bundler
