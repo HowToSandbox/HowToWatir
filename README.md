@@ -47,6 +47,19 @@ This repo will show you how to do the major things you might want to do in watir
 	
 
 #### Install Browser Drivers
+The next major task you need to do in order to do browser testing is install browser drivers. OSX supports the four of the five major drivers. Firefox is supported out of the box with not special twiddling to get it to work. All the rest of them you have to install the drivers to be able to use them. 
+
+
+###### PhantomJS
+This is probably your single most powerful driver. This is the one that will make your tests super fast, and allow you to run your tests headless in Continious Integration. If you only install one driver, install this one.
+This driver must be located in your path. Download the driver, and put it in your path.
+	Download the driver from http://phantomjs.org/
+	
+	>echo $PATH
+	
+	Decide where you want to put the driver, somewhere in your path. /usr/local/bin is a nice option. Or you can put it whereever you like and add that dir to your path. Dealers choice.
+
+
 
 
 
