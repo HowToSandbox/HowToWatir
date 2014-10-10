@@ -11,7 +11,7 @@ This repo will show you how to do the major things you might want to do in watir
 	
 #### Install you Development Environment
 
-https://github.com/RubySandbox/HowToSetUpYourDevelopmentEnvironment/blob/master/README.md
+https://github.com/RubySandbox/HowToSetUpYourDevelopmentEnvironment
 	
 
 #### Install Browser Drivers
