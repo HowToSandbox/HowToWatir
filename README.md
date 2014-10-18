@@ -30,6 +30,8 @@ Decide where you want to put the driver, somewhere in your path. /usr/local/bin 
 ###### Chrome Driver
 The driver for Chrome is also needs to be in your path. Do the same things s you did for PhantomJS. Download from https://code.google.com/p/selenium/wiki/ChromeDriver
 
+Make sure you only have ONE copy of this, in one place in your path, and it's the most current version. If you have an old version somewhere, it will stomp all over a more recent version, and cause no end of confusion. So if your getting funny behavior, go hunting for old drivers. (yeh, I've had this problem. grr.)
+
 ###### Safari Driver
 Safari is super useful because safari is the browser that 'if it works on safari, it'll work on anything'. Safari is kind of a canary in a coalmine, and will surface a lot of issues that will show up across many browsers. It also has very nice debugging tools. However, it's an epic pain in the ankle to install the driver for. 
 
