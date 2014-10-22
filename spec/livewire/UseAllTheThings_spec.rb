@@ -18,13 +18,13 @@ class Specs < MiniTest::Spec
 
   describe "I want to show some Examples" do
 
-    it "Should open the google webpage" do
+    it "Assert the title of a page" do
       @browser.goto "www.google.com"
       assert @browser.title == "Google"
       puts "The website is #{@browser.title}"
     end
 
-    it "Should search Google for cats" do
+    it "set a field, use send send_keys, and check for text in a page" do
       puts "Searching for Cats!"
       @browser.goto "www.google.com"
       @browser.text_field(:name => "q").set "cat"
@@ -37,6 +37,10 @@ class Specs < MiniTest::Spec
       puts "Woot! I can find Cats on the internet!"
       # At any point in this script that it breaks, the next puts will not output. 
       # Love your puts, for they help you debug
+    end
+
+    it "" do
+
     end
 
   end

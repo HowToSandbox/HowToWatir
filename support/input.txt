@@ -1,0 +1,3 @@
+testCaseName1| email1@thing.com|password1|Please enter a valid email address
+testCaseName2|email2@thing.com| password1|Please enter a password
+testCaseName3|email2@thing.com|password1|Signed in
