@@ -23,7 +23,7 @@ This is probably your single most powerful driver. This is the one that will mak
 
 Decide where you want to put the driver, somewhere in your path. /usr/local/bin is a nice option. Or you can put it whereever you like and add that dir to your path. Dealers choice.
 
-	Download the driver from http://phantomjs.org/
+	Download the driver from https://github.com/eugene1g/phantomjs/releases     (the official binary is broken)
 	
 	>echo $PATH
 
